@@ -27,7 +27,7 @@ const DashboardBanner = () => {
 
       {/* Middle: Text */}
       <div className="col-span-7">
-        <h2 className="text-xl font-bold text-[#B9FF66]">
+        <h2 className="text-xl font-bold text-[#C5E1A5]">
           Start accepting online payments
         </h2>
         <p className="text-sm text-zinc-400 mt-1 leading-relaxed max-w-xl">
@@ -38,7 +38,7 @@ const DashboardBanner = () => {
 
       {/* Right: Button */}
       <div className="col-span-4 flex justify-center md:justify-center">
-        <button className="cursor-pointer group relative bg-white hover:bg-[#B9FF66] text-black font-semibold text-sm px-5 py-2 rounded-2xl transition-all duration-200 ease-in-out shadow hover:shadow-lg w-32 h-12">
+        <button className="cursor-pointer group relative bg-white hover:bg-[#C5E1A5] text-black font-semibold text-sm px-5 py-2 rounded-2xl transition-all duration-200 ease-in-out shadow hover:shadow-lg w-32 h-12">
           <div className="relative flex items-center justify-center gap-2">
             {/* Text hover animation */}
             <span className="relative inline-block overflow-hidden">

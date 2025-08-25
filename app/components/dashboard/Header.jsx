@@ -30,7 +30,7 @@ const Header = () => {
       <div className="flex items-center gap-4">
         {/* Plus Button with Tooltip */}
         <section className="relative flex justify-center items-center pr-4 border-r border-zinc-800">
-          <div className="group flex justify-center items-center rounded-full bg-[#B9FF66] p-2 cursor-pointer relative transition-transform duration-200 ease-in-out hover:scale-105">
+          <div className="group flex justify-center items-center rounded-full bg-[#C5E1A5] p-2 cursor-pointer relative transition-transform duration-200 ease-in-out hover:scale-105">
             <Plus className="w-4 h-4 text-zinc-800" />
 
             {/* Tooltip */}

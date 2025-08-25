@@ -10,7 +10,7 @@ const Searchinput = () => {
       <div className="relative">
         {/* Icon */}
         <div className="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
-          <Search className="w-4 h-4 text-[#B9FF66]" />
+          <Search className="w-4 h-4 text-[#C5E1A5]" />
         </div>
 
         {/* Input */}
@@ -21,7 +21,7 @@ const Searchinput = () => {
           onChange={(e) => setQuery(e.target.value)}
           className="block w-full rounded-full border-[1px] border-zinc-700 bg-transparent 
                      py-2 pl-10 pr-24 text-sm text-[#101010] 
-                     focus:border-[#D6F956] focus:ring-[#D6F956] focus:ring-[0.2] focus:outline-none"
+                     focus:border-[#C5E1A5] focus:ring-[#C5E1A5] focus:ring-[0.2] focus:outline-none"
           placeholder="Search in Customers..."
           required
         />

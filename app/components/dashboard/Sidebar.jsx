@@ -21,7 +21,7 @@ const Sidebar = () => {
         <div className="flex flex-col">
           {/* Logo */}
           <div className="bg-zinc-950 flex space-x-3 p-3 items-center rounded-t-xl">
-            <ShoppingCart className="w-8 h-8 text-[#B9FF66]" />
+            <ShoppingCart className="w-8 h-8 text-[#C5E1A5]" />
             <span className=" text-md font-semibold panchang uppercase">
               {" "}
               Inventory
@@ -32,7 +32,7 @@ const Sidebar = () => {
           <nav className="flex flex-col gap-3 px-3 py-6">
             <Link
               href="/"
-              className="flex  items-center space-x-2 bg-[#B9FF66] text-zinc-950 p-2 rounded-md"
+              className="flex  items-center space-x-2 bg-[#C5E1A5] text-zinc-950 p-2 rounded-md"
             >
               <Home className="w-4 h-4" />
               <span className="font-montserrat">Home</span>
