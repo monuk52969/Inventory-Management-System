@@ -8,13 +8,14 @@ import {
   ChevronDown,
   LayoutGrid,
 } from "lucide-react";
-import Searchinput from "@/app/components/dashboard/Searchinput";
+
 import Image from "next/image";
+import SearchInput from "@/app/components/dashboard/Searchinput";
 
 
 const Header = () => {
   return (
-    <div className="bg-[#000000] text-[#FEFEFE] h-14 flex items-center justify-between px-8 rounded-t-2xl border-b-[1px] border-[#1f1f1e] ">
+    <div className="bg-[#1F1F1F] text-[#FEFEFE] h-14 flex items-center justify-between px-8 border-b-[1px] border-[#1f1f1e] ">
       {/* Left section: History + Search */}
       <div className="flex gap-5 items-center">
         {/* Recent activities */}
@@ -23,7 +24,7 @@ const Header = () => {
         </button>
 
         {/* Search */}
-        <Searchinput />
+        <SearchInput />
       </div>
 
       {/* Right section */}
@@ -70,7 +71,7 @@ const Header = () => {
         {/* Monu + Avatar */}
         <div className="flex items-center gap-3 pl-4 ">
           <button className="flex items-center gap-1">
-            <span className="text-sm">Monu</span>
+            <span className="text-sm montserrat">Monu</span>
             <ChevronDown className="w-4 h-4" />
           </button>
           <button>

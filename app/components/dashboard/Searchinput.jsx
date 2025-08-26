@@ -20,7 +20,7 @@ const Searchinput = () => {
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className="block w-full rounded-full border-[1px] border-zinc-700 bg-transparent 
-                     py-2 pl-10 pr-24 text-sm text-[#101010] 
+                     py-2 pl-10 pr-24 text-sm text-[#fefefe] 
                      focus:border-[#C5E1A5] focus:ring-[#C5E1A5] focus:ring-[0.2] focus:outline-none"
           placeholder="Search in Customers..."
           required

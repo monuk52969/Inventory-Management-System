@@ -37,13 +37,13 @@ const salesActivity = [
 const SalesActivityCard = () => {
   return (
     <div className="col-span-8">
-      <h2 className="mb-6 text-xl font-semibold">Sales Activity</h2>
+      <h2 className="mb-6 text-xl montserrat font-semibold">Sales Activity</h2>
       <div className="grid grid-cols-4 gap-6">
         {salesActivity.map((item, index) => (
           <motion.div
             key={index}
             whileHover={{ scale: 1.03 }}
-            className={`relative rounded-2xl ${item.color} p-5 flex flex-col justify-between h-36 shadow-sm`}
+            className={`relative montserrat rounded-2xl ${item.color} p-5 flex flex-col justify-between h-36 shadow-sm`}
           >
             <div className="flex justify-between items-start">
               {item.icon}
@@ -53,7 +53,7 @@ const SalesActivityCard = () => {
             </div>
             <div className="flex justify-between items-end">
               <span className="text-sm font-medium text-gray-700">{item.title}</span>
-              <h4 className={`text-2xl font-bold ${item.numberColor}`}>{item.number}</h4>
+              <h4 className={`text-2xl montserrat font-bold ${item.numberColor}`}>{item.number}</h4>
             </div>
           </motion.div>
         ))}

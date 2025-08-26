@@ -21,16 +21,16 @@ const DashboardBanner = () => {
           width={64}
           height={64}
           alt="payment"
-          className="rounded-lg object-cover"
+          className="rounded-lg text-[#C6E2A7] object-cover"
         />
       </div>
 
       {/* Middle: Text */}
       <div className="col-span-7">
-        <h2 className="text-xl font-bold text-[#C5E1A5]">
+        <h2 className="text-xl montserrat font-bold text-[#C5E1A5]">
           Start accepting online payments
         </h2>
-        <p className="text-sm text-zinc-400 mt-1 leading-relaxed max-w-xl">
+        <p className="text-sm montserrat text-zinc-400 mt-1 leading-relaxed max-w-xl">
           Businesses are moving towards online payments as they&apos;re easy,
           secure, and fast. Try them for your business today.
         </p>
@@ -42,17 +42,17 @@ const DashboardBanner = () => {
           <div className="relative flex items-center justify-center gap-2">
             {/* Text hover animation */}
             <span className="relative inline-block overflow-hidden">
-              <span className="block transition-transform duration-300 group-hover:-translate-y-full">
+              <span className="block montserrat transition-transform duration-300 group-hover:-translate-y-full">
                 Enable
               </span>
-              <span className="absolute inset-0 transition-transform duration-300 translate-y-full group-hover:translate-y-0">
+              <span className="absolute montserrat inset-0 transition-transform duration-300 translate-y-full group-hover:translate-y-0">
                 Now
               </span>
             </span>
 
             {/* Icon */}
             <svg
-              className="w-4 h-4 transition-transform duration-200 group-hover:rotate-45"
+              className="w-4 h-4 text-[#000000]  transition-transform duration-200 group-hover:rotate-45"
               viewBox="0 0 24 24"
             >
               <circle fill="currentColor" r="11" cy="12" cx="12"></circle>

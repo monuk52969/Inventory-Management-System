@@ -24,7 +24,7 @@ const SalesOverview = () => {
 
       {/* INVENTORY SUMMARY */}
       <div className="col-span-4 flex flex-col">
-        <h2 className="mb-6 text-xl font-semibold">Inventory Summary</h2>
+        <h2 className="mb-6 text-xl montserrat font-semibold">Inventory Summary</h2>
         <div className="grid grid-cols-1 gap-4">
           {inventorySummary.map((item, index) => (
             <InventorySummeryCard key={index} item={item} />
